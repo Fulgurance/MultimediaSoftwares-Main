@@ -16,5 +16,20 @@
       "options": []
     }
   ],
-  "options": []
+  "options": [
+    {
+      "name": "Openrc",
+      "description": "Enable openrc support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Openrc",
+          "version": "0.46.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": ["https://gitweb.gentoo.org/repo/gentoo.git/plain/media-sound/alsa-utils/files/alsasound.initd-r8"],
+      "md5sums": ["cd3144fbb7898217169618a26a030621"]
+    },
+  ]
 }
