@@ -14,6 +14,11 @@
       "name": "Libsndfile",
       "version": "1.0.31",
       "options": []
+    },
+    {
+      "name": "Check",
+      "version": "0.15.2",
+      "options": []
     }
   ],
   "options": [
