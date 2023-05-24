@@ -29,7 +29,7 @@
           "version": "1.2.5-r1",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Dbus",
@@ -41,7 +41,7 @@
           "version": "1.12.20",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Elogind",
@@ -53,7 +53,7 @@
           "version": "246.10.0",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Glib",
@@ -65,7 +65,7 @@
           "version": "2.68.4",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Libcap",
@@ -77,7 +77,7 @@
           "version": "2.53.0",
           "options": ["Linux-Pam"]
         }
-      ],
+      ]
     },
     {
       "name": "Speex",
@@ -89,7 +89,7 @@
           "version": "1.2.0",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Xorg-Libraries",
@@ -101,7 +101,7 @@
           "version": "1.20.13",
           "options": []
         }
-      ],
+      ]
     }
   ]
 }
