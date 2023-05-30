@@ -22,7 +22,7 @@ class Target < ISM::Software
         makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
 
         if option("Openrc")
-            prepareOpenrcServiceInstallation("#{workDirectoryPath(false)}/alsasound.initd-r8","alsasound")
+            prepareOpenrcServiceInstallation("#{workDirectoryPath(false)}/Alsasound-Init.d","alsasound")
         end
     end
 
