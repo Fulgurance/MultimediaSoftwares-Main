@@ -17,7 +17,7 @@ class Target < ISM::Software
                             "--enable-shared",
                             "--disable-debug",
                             "--enable-avresample",
-                            "--enable-libass",
+                            "#{option("Libass") ? "--enable-libass" : ""}",
                             "--enable-libfdk-aac",
                             "--enable-libfreetype",
                             "--enable-libmp3lame",
