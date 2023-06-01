@@ -20,7 +20,7 @@ class Target < ISM::Software
                             "#{option("Libass") ? "--enable-libass" : ""}",
                             "#{option("Fdk-Aac") ? "--enable-libfdk-aac" : ""}",
                             "--enable-libfreetype",
-                            "--enable-libmp3lame",
+                            "#{option("Lame") ? "--enable-libmp3lame" : ""}",
                             "--enable-libopus",
                             "--enable-libtheora",
                             "--enable-libvorbis",
