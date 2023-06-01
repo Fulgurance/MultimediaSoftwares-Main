@@ -24,7 +24,7 @@ class Target < ISM::Software
                             "#{option("Opus") ? "--enable-libopus" : ""}",
                             "#{option("Libtheora") ? "--enable-libtheora" : ""}",
                             "--enable-libvorbis",
-                            "--enable-libvpx",
+                            "#{option("Libvpx") ? "--enable-libvpx" : ""}",
                             "--enable-libx264",
                             "--enable-libx265",
                             "--enable-openssl",
