@@ -21,7 +21,7 @@ class Target < ISM::Software
                             "#{option("Fdk-Aac") ? "--enable-libfdk-aac" : ""}",
                             "--enable-libfreetype",
                             "#{option("Lame") ? "--enable-libmp3lame" : ""}",
-                            "--enable-libopus",
+                            "#{option("Opus") ? "--enable-libopus" : ""}",
                             "--enable-libtheora",
                             "--enable-libvorbis",
                             "--enable-libvpx",
