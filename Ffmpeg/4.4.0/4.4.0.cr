@@ -22,7 +22,7 @@ class Target < ISM::Software
                             "--enable-libfreetype",
                             "#{option("Lame") ? "--enable-libmp3lame" : ""}",
                             "#{option("Opus") ? "--enable-libopus" : ""}",
-                            "--enable-libtheora",
+                            "#{option("Libtheora") ? "--enable-libtheora" : ""}",
                             "--enable-libvorbis",
                             "--enable-libvpx",
                             "--enable-libx264",
