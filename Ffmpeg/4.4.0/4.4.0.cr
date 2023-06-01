@@ -25,8 +25,8 @@ class Target < ISM::Software
                             "#{option("Libtheora") ? "--enable-libtheora" : ""}",
                             "--enable-libvorbis",
                             "#{option("Libvpx") ? "--enable-libvpx" : ""}",
-                            "--enable-libx264",
-                            "--enable-libx265",
+                            "#{option("X264") ? "--enable-libx264" : ""}",
+                            "#{option("X265") ? "--enable-libx265" : ""}",
                             "--enable-openssl",
                             "--docdir=/usr/share/doc/ffmpeg-4.4"],
                             buildDirectoryPath)
