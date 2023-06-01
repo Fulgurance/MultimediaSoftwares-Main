@@ -18,7 +18,7 @@ class Target < ISM::Software
                             "--disable-debug",
                             "--enable-avresample",
                             "#{option("Libass") ? "--enable-libass" : ""}",
-                            "--enable-libfdk-aac",
+                            "#{option("Fdk-Aac") ? "--enable-libfdk-aac" : ""}",
                             "--enable-libfreetype",
                             "--enable-libmp3lame",
                             "--enable-libopus",
