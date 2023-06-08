@@ -26,4 +26,10 @@ class Target < ISM::Software
         end
     end
 
+    def install
+        super
+
+        runAlsactlCommand(["alsactl","-L","store"])
+    end
+
 end
