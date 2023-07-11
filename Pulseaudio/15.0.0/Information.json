@@ -2,7 +2,9 @@
   "port": "MultimediaSoftwares-Main",
   "name": "Pulseaudio",
   "version": "15.0.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Sound server system for POSIX OS",
   "website": "https://www.freedesktop.org/wiki/Software/PulseAudio/",
   "installedFiles": [],
@@ -30,7 +32,8 @@
           "version": "1.2.5-r1",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Dbus",
@@ -42,7 +45,8 @@
           "version": "1.12.20",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Elogind",
@@ -54,7 +58,8 @@
           "version": "246.10.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Glib",
@@ -66,7 +71,8 @@
           "version": "2.68.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Libcap",
@@ -76,9 +82,12 @@
         {
           "name": "Libcap",
           "version": "2.53.0",
-          "options": ["Linux-Pam"]
+          "options": [
+            "Linux-Pam"
+          ]
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Speex",
@@ -90,7 +99,8 @@
           "version": "1.2.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Xorg-Libraries",
@@ -102,7 +112,8 @@
           "version": "1.20.13",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }
