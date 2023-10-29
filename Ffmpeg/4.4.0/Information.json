@@ -128,7 +128,7 @@
       "dependencies": [
         {
           "name": "X264",
-          "version": "0.0.0-+20210814",
+          "version": "0.0.0-20210814",
           "options": []
         }
       ],
