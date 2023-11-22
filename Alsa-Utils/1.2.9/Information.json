@@ -1,0 +1,35 @@
+{
+  "port": "MultimediaSoftwares-Main",
+  "name": "Alsa-Utils",
+  "version": "1.2.9",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "The Advanced Linux Sound Architecture utilities",
+  "website": "https://github.com/alsa-project/alsa-utils",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Alsa-Lib",
+      "version": "1.2.9",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Openrc",
+      "description": "Enable openrc support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Openrc",
+          "version": ">=0.46.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueOptions": []
+}
