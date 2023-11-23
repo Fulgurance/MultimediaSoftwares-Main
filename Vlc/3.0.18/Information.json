@@ -1,0 +1,659 @@
+{
+  "port": "MultimediaSoftwares-Main",
+  "name": "Vlc",
+  "version": "3.0.18",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "VLC media player",
+  "website": "https://github.com/videolan/vlc",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Alsa-Lib",
+      "description": "Enable alsa-lib support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Alsa-Lib",
+          "version": "1.2.9",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Desktop-File-Utils",
+      "description": "Enable desktop-file-util support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Desktop-File-Utils",
+          "version": "0.26.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Ffmpeg",
+      "description": "Enable ffmpeg support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Ffmpeg",
+          "version": "6.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Liba52",
+      "description": "Enable liba52 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Liba52",
+          "version": "0.7.4",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libgcrypt",
+      "description": "Enable libgcrypt support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libgcrypt",
+          "version": "1.10.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libmad",
+      "description": "Enable libmad support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libmad",
+          "version": "0.15.1+b",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Lua",
+      "description": "Enable lua support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Lua",
+          "version": "5.2.4",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Dbus",
+      "description": "Enable dbus support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Dbus",
+          "version": "1.14.8",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libidn",
+      "description": "Enable libidn support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libidn",
+          "version": "1.41.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libssh2",
+      "description": "Enable libssh2 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libssh2",
+          "version": "1.11.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libarchive",
+      "description": "Enable libarchive support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libarchive",
+          "version": "3.7.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libcddb",
+      "description": "Enable libcddb support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libcddb",
+          "version": "1.3.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libdv",
+      "description": "Enable libdv support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libdv",
+          "version": "1.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libdvdcss",
+      "description": "Enable libdvdcss support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libdvdcss",
+          "version": "1.4.3",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libdvdread",
+      "description": "Enable libdvdread support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libdvdread",
+          "version": "6.1.3",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libdvdnav",
+      "description": "Enable libdvdnav support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libdvdnav",
+          "version": "6.1.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Opencv",
+      "description": "Enable opencv support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Opencv",
+          "version": "4.8.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Samba",
+      "description": "Enable samba support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Samba",
+          "version": "4.18.6",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "V4l-Utils",
+      "description": "Enable v4l-utils support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "V4l-Utils",
+          "version": "1.24.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libogg",
+      "description": "Enable libogg support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libogg",
+          "version": "1.3.5",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Faad2",
+      "description": "Enable faad2 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Faad2",
+          "version": "2.10.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Flac",
+      "description": "Enable flac support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Flac",
+          "version": "1.4.3",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libaom",
+      "description": "Enable libaom support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libaom",
+          "version": "3.6.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libass",
+      "description": "Enable libass support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libass",
+          "version": "0.17.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libmpeg2",
+      "description": "Enable libmpeg2 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libmpeg2",
+          "version": "0.5.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libpng",
+      "description": "Enable libpng support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libpng",
+          "version": "1.6.40",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libtheora",
+      "description": "Enable libtheora support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libtheora",
+          "version": "1.1.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libva",
+      "description": "Enable libva support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libva",
+          "version": "2.19.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libvorbis",
+      "description": "Enable libvorbis support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libvorbis",
+          "version": "1.3.7",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Opus",
+      "description": "Enable opus support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Opus",
+          "version": "1.3.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Speex",
+      "description": "Enable speex support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Speex",
+          "version": "1.2.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libvpx",
+      "description": "Enable libvpx support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libvpx",
+          "version": "1.13.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "X264",
+      "description": "Enable x264 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "X264",
+          "version": "0.0.0+20230215",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Aalib",
+      "description": "Enable aalib support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Aalib",
+          "version": "1.4.0-rc.5",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Fontconfig",
+      "description": "Enable fontconfig support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Fontconfig",
+          "version": "2.14.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "FreeType",
+      "description": "Enable freetype support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "FreeType",
+          "version": "2.13.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Fribidi",
+      "description": "Enable fribidi support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Fribidi",
+          "version": "1.0.13",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Librsvg",
+      "description": "Enable librsvg support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Librsvg",
+          "version": "2.56.3",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libvdpau",
+      "description": "Enable libvdpau support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libvdpau",
+          "version": "1.5.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Sdl12-Compat",
+      "description": "Enable sdl12-compat support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Sdl12-Compat",
+          "version": "1.2.64",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Pulseaudio",
+      "description": "Enable pulseaudio support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Pulseaudio",
+          "version": "16.1.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libsamplerate",
+      "description": "Enable libsamplerate support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libsamplerate",
+          "version": "0.2.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Qt",
+      "description": "Enable qt support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Qt",
+          "version": "5.15.10",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Avahi",
+      "description": "Enable avahi support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Avahi",
+          "version": "0.8.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gnutls",
+      "description": "Enable gnutls support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Gnutls",
+          "version": "3.8.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libnotify",
+      "description": "Enable libnotify support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libnotify",
+          "version": "0.8.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libxml2",
+      "description": "Enable libxml2 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libxml2",
+          "version": "2.10.4",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Taglib",
+      "description": "Enable taglib support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Taglib",
+          "version": "1.13.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Xdg-Utils",
+      "description": "Enable xdg-utils support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Xdg-Utils",
+          "version": "1.1.3",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueOptions": []
+}
