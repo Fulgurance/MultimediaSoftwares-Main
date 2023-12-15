@@ -11,7 +11,7 @@
   "dependencies": [
     {
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     }
   ],
@@ -24,7 +24,7 @@
       "dependencies": [
         {
           "name": "Alsa-Lib",
-          "version": "1.2.9",
+          "version": ">=1.2.9",
           "options": []
         }
       ],
@@ -37,7 +37,7 @@
       "dependencies": [
         {
           "name": "Desktop-File-Utils",
-          "version": "0.26.0",
+          "version": ">=0.26.0",
           "options": []
         }
       ],
@@ -50,7 +50,7 @@
       "dependencies": [
         {
           "name": "Ffmpeg",
-          "version": "6.0.0",
+          "version": ">=6.0.0",
           "options": []
         }
       ],
@@ -63,7 +63,7 @@
       "dependencies": [
         {
           "name": "Liba52",
-          "version": "0.7.4",
+          "version": ">=0.7.4",
           "options": []
         }
       ],
@@ -76,7 +76,7 @@
       "dependencies": [
         {
           "name": "Libgcrypt",
-          "version": "1.10.2",
+          "version": ">=1.10.2",
           "options": []
         }
       ],
@@ -89,7 +89,7 @@
       "dependencies": [
         {
           "name": "Libmad",
-          "version": "0.15.1+b",
+          "version": ">=0.15.1+b",
           "options": []
         }
       ],
@@ -102,7 +102,7 @@
       "dependencies": [
         {
           "name": "Lua",
-          "version": "5.2.4",
+          "version": ">=5.2.4",
           "options": []
         }
       ],
@@ -115,7 +115,7 @@
       "dependencies": [
         {
           "name": "Dbus",
-          "version": "1.14.8",
+          "version": ">=1.14.8",
           "options": []
         }
       ],
@@ -128,7 +128,7 @@
       "dependencies": [
         {
           "name": "Libidn",
-          "version": "1.41.0",
+          "version": ">=1.41.0",
           "options": []
         }
       ],
@@ -141,7 +141,7 @@
       "dependencies": [
         {
           "name": "Libssh2",
-          "version": "1.11.0",
+          "version": ">=1.11.0",
           "options": []
         }
       ],
@@ -154,7 +154,7 @@
       "dependencies": [
         {
           "name": "Libarchive",
-          "version": "3.7.1",
+          "version": ">=3.7.1",
           "options": []
         }
       ],
@@ -167,7 +167,7 @@
       "dependencies": [
         {
           "name": "Libcddb",
-          "version": "1.3.2",
+          "version": ">=1.3.2",
           "options": []
         }
       ],
@@ -180,7 +180,7 @@
       "dependencies": [
         {
           "name": "Libdv",
-          "version": "1.0.0",
+          "version": ">=1.0.0",
           "options": []
         }
       ],
@@ -193,7 +193,7 @@
       "dependencies": [
         {
           "name": "Libdvdcss",
-          "version": "1.4.3",
+          "version": ">=1.4.3",
           "options": []
         }
       ],
@@ -206,7 +206,7 @@
       "dependencies": [
         {
           "name": "Libdvdread",
-          "version": "6.1.3",
+          "version": ">=6.1.3",
           "options": []
         }
       ],
@@ -219,7 +219,7 @@
       "dependencies": [
         {
           "name": "Libdvdnav",
-          "version": "6.1.1",
+          "version": ">=6.1.1",
           "options": []
         }
       ],
@@ -232,7 +232,7 @@
       "dependencies": [
         {
           "name": "Opencv",
-          "version": "4.8.0",
+          "version": ">=4.8.0",
           "options": []
         }
       ],
@@ -245,7 +245,7 @@
       "dependencies": [
         {
           "name": "Samba",
-          "version": "4.18.6",
+          "version": ">=4.18.6",
           "options": []
         }
       ],
@@ -258,7 +258,7 @@
       "dependencies": [
         {
           "name": "V4l-Utils",
-          "version": "1.24.1",
+          "version": ">=1.24.1",
           "options": []
         }
       ],
@@ -271,7 +271,7 @@
       "dependencies": [
         {
           "name": "Libogg",
-          "version": "1.3.5",
+          "version": ">=1.3.5",
           "options": []
         }
       ],
@@ -284,7 +284,7 @@
       "dependencies": [
         {
           "name": "Faad2",
-          "version": "2.10.1",
+          "version": ">=2.10.1",
           "options": []
         }
       ],
@@ -297,7 +297,7 @@
       "dependencies": [
         {
           "name": "Flac",
-          "version": "1.4.3",
+          "version": ">=1.4.3",
           "options": []
         }
       ],
@@ -310,7 +310,7 @@
       "dependencies": [
         {
           "name": "Libaom",
-          "version": "3.6.1",
+          "version": ">=3.6.1",
           "options": []
         }
       ],
@@ -323,7 +323,7 @@
       "dependencies": [
         {
           "name": "Libass",
-          "version": "0.17.1",
+          "version": ">=0.17.1",
           "options": []
         }
       ],
@@ -336,7 +336,7 @@
       "dependencies": [
         {
           "name": "Libmpeg2",
-          "version": "0.5.1",
+          "version": ">=0.5.1",
           "options": []
         }
       ],
@@ -349,7 +349,7 @@
       "dependencies": [
         {
           "name": "Libpng",
-          "version": "1.6.40",
+          "version": ">=1.6.40",
           "options": []
         }
       ],
@@ -362,7 +362,7 @@
       "dependencies": [
         {
           "name": "Libtheora",
-          "version": "1.1.1",
+          "version": ">=1.1.1",
           "options": []
         }
       ],
@@ -375,7 +375,7 @@
       "dependencies": [
         {
           "name": "Libva",
-          "version": "2.19.0",
+          "version": ">=2.19.0",
           "options": []
         }
       ],
@@ -388,7 +388,7 @@
       "dependencies": [
         {
           "name": "Libvorbis",
-          "version": "1.3.7",
+          "version": ">=1.3.7",
           "options": []
         }
       ],
@@ -401,7 +401,7 @@
       "dependencies": [
         {
           "name": "Opus",
-          "version": "1.3.1",
+          "version": ">=1.3.1",
           "options": []
         }
       ],
@@ -414,7 +414,7 @@
       "dependencies": [
         {
           "name": "Speex",
-          "version": "1.2.1",
+          "version": ">=1.2.1",
           "options": []
         }
       ],
@@ -427,7 +427,7 @@
       "dependencies": [
         {
           "name": "Libvpx",
-          "version": "1.13.0",
+          "version": ">=1.13.0",
           "options": []
         }
       ],
@@ -440,7 +440,7 @@
       "dependencies": [
         {
           "name": "X264",
-          "version": "0.0.0+20230215",
+          "version": ">=0.0.0+20230215",
           "options": []
         }
       ],
@@ -453,7 +453,7 @@
       "dependencies": [
         {
           "name": "Aalib",
-          "version": "1.4.0-rc.5",
+          "version": ">=1.4.0-rc.5",
           "options": []
         }
       ],
@@ -466,7 +466,7 @@
       "dependencies": [
         {
           "name": "Fontconfig",
-          "version": "2.14.2",
+          "version": ">=2.14.2",
           "options": []
         }
       ],
@@ -479,7 +479,7 @@
       "dependencies": [
         {
           "name": "FreeType",
-          "version": "2.13.1",
+          "version": ">=2.13.1",
           "options": []
         }
       ],
@@ -492,7 +492,7 @@
       "dependencies": [
         {
           "name": "Fribidi",
-          "version": "1.0.13",
+          "version": ">=1.0.13",
           "options": []
         }
       ],
@@ -505,7 +505,7 @@
       "dependencies": [
         {
           "name": "Librsvg",
-          "version": "2.56.3",
+          "version": ">=2.56.3",
           "options": []
         }
       ],
@@ -518,7 +518,7 @@
       "dependencies": [
         {
           "name": "Libvdpau",
-          "version": "1.5.0",
+          "version": ">=1.5.0",
           "options": []
         }
       ],
@@ -531,7 +531,7 @@
       "dependencies": [
         {
           "name": "Sdl12-Compat",
-          "version": "1.2.64",
+          "version": ">=1.2.64",
           "options": []
         }
       ],
@@ -544,7 +544,7 @@
       "dependencies": [
         {
           "name": "Pulseaudio",
-          "version": "16.1.0",
+          "version": ">=16.1.0",
           "options": []
         }
       ],
@@ -557,7 +557,7 @@
       "dependencies": [
         {
           "name": "Libsamplerate",
-          "version": "0.2.2",
+          "version": ">=0.2.2",
           "options": []
         }
       ],
@@ -570,7 +570,7 @@
       "dependencies": [
         {
           "name": "Qt",
-          "version": "5.15.10",
+          "version": ">=5.15.10",
           "options": []
         }
       ],
@@ -583,7 +583,7 @@
       "dependencies": [
         {
           "name": "Avahi",
-          "version": "0.8.0",
+          "version": ">=0.8.0",
           "options": []
         }
       ],
@@ -596,7 +596,7 @@
       "dependencies": [
         {
           "name": "Gnutls",
-          "version": "3.8.1",
+          "version": ">=3.8.1",
           "options": []
         }
       ],
@@ -609,7 +609,7 @@
       "dependencies": [
         {
           "name": "Libnotify",
-          "version": "0.8.2",
+          "version": ">=0.8.2",
           "options": []
         }
       ],
@@ -622,7 +622,7 @@
       "dependencies": [
         {
           "name": "Libxml2",
-          "version": "2.10.4",
+          "version": ">=2.10.4",
           "options": []
         }
       ],
@@ -635,7 +635,7 @@
       "dependencies": [
         {
           "name": "Taglib",
-          "version": "1.13.1",
+          "version": ">=1.13.1",
           "options": []
         }
       ],
@@ -648,7 +648,7 @@
       "dependencies": [
         {
           "name": "Xdg-Utils",
-          "version": "1.1.3",
+          "version": ">=1.1.3",
           "options": []
         }
       ],
