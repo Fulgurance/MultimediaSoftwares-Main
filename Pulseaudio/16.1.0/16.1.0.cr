@@ -4,7 +4,7 @@ class Target < ISM::Software
         @buildDirectory = true
         super
 
-        runMesonCommand(["setup",@buildDirectoryNames["MainBuild"],"-Ddatabase=gdbm"],mainWorkDirectoryPath)
+        runMesonCommand(["setup",@buildDirectoryNames["MainBuild"],"-Ddatabase=gdbm","-Ddoxygen=false",],mainWorkDirectoryPath)
     end
 
     def configure
