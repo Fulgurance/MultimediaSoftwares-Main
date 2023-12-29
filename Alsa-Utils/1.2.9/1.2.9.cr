@@ -3,6 +3,7 @@ class Target < ISM::Software
     def prepare
         super
 
+        deleteFile("#{mainWorkDirectoryPath(false)}/alsactl/init_sysdeps.c")
         generateEmptyFile("#{mainWorkDirectoryPath(false)}/alsactl/init_sysdeps.c")
     end
 
