@@ -656,5 +656,6 @@
     }
   ],
   "uniqueDependencies": [],
-  "uniqueOptions": []
+  "uniqueOptions": [],
+  "selectedDependencies": []
 }
