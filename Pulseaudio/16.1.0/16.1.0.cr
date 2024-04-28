@@ -17,7 +17,8 @@ class Target < ISM::Software
                             "-Ddatabase=gdbm",
                             "-Ddoxygen=false",
                             "-Dbluez5=disabled",
-                            "-Ddbus=#{option("Dbus") ? "enabled" : "disabled"}"],
+                            "-Ddbus=#{option("Dbus") ? "enabled" : "disabled"}",
+                            "-Dglib=#{option("Glib") ? "enabled" : "disabled"}"],
                             mainWorkDirectoryPath)
     end
 
