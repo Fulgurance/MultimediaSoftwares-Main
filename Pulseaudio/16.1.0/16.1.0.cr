@@ -16,7 +16,8 @@ class Target < ISM::Software
                             "--buildtype=release",
                             "-Ddatabase=gdbm",
                             "-Ddoxygen=false",
-                            "-Dbluez5=disabled"],
+                            "-Dbluez5=disabled",
+                            "-Ddbus=#{option("Dbus" ? "true" : "false")}"],
                             mainWorkDirectoryPath)
     end
 
