@@ -10,15 +10,12 @@ class Target < ISM::Software
 
         runMesonCommand([   "setup",
                             "--reconfigure",
-                            "-Dauto_features=disabled",
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release",
                             "-Ddatabase=gdbm",
                             "-Ddoxygen=false",
-                            "-Dbluez5=disabled",
-                            "-Ddbus=#{option("Dbus") ? "enabled" : "disabled"}",
-                            "-Dglib=#{option("Glib") ? "enabled" : "disabled"}"],
+                            "-Dbluez5=disabled"],
                             mainWorkDirectoryPath)
     end
 
