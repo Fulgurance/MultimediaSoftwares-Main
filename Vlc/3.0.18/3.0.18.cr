@@ -15,7 +15,7 @@ class Target < ISM::Software
     def build
         super
 
-        makeSource( path: buildDirectoryPath.
+        makeSource( path: buildDirectoryPath,
                     environment: {  "LUAC" => "/usr/bin/luac5.2",
                                             "LUA_LIBS" => "\"$(pkg-config --libs lua52)\"",
                                             "CPPFLAGS" => "\"$(pkg-config --cflags lua52)\"",
