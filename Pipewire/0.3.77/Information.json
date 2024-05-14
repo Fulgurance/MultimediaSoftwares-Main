@@ -1,0 +1,272 @@
+{
+  "port": "MultimediaSoftwares-Main",
+  "name": "Pipewire",
+  "version": "0.3.77",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Multimedia processing graphs",
+  "website": "https://gitlab.freedesktop.org/pipewire/pipewire/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Bluez",
+      "description": "Enable bluez support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Bluez",
+          "version": "5.68.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Dbus",
+      "description": "Enable dbus support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Dbus",
+          "version": "1.14.8",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gstreamer",
+      "description": "Enable gstreamer support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Gstreamer",
+          "version": "1.22.5",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gst-Plugins-Base",
+      "description": "Enable gst-plugins-base support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Gst-Plugins-Base",
+          "version": "1.22.5",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Pulseaudio",
+      "description": "Enable pulseaudio support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Pulseaudio",
+          "version": "16.1.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Sbc",
+      "description": "Enable sbc support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Sbc",
+          "version": "2.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "V4l-Utils",
+      "description": "Enable v4l-utils support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "V4l-Utils",
+          "version": "1.24.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Alsa-Lib",
+      "description": "Enable alsa-lib support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Alsa-Lib",
+          "version": "1.2.9",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Avahi",
+      "description": "Enable avahi support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Avahi",
+          "version": "0.8.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Fdk-Aac",
+      "description": "Enable fdk-aac support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Fdk-Aac",
+          "version": "2.0.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Ffmpeg",
+      "description": "Enable ffmpeg support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Ffmpeg",
+          "version": "6.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libcanberra",
+      "description": "Enable libcanberra support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libcanberra",
+          "version": "0.30.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libdrm",
+      "description": "Enable libdrm support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libdrm",
+          "version": "2.4.115",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libxcb",
+      "description": "Enable libxcb support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libxcb",
+          "version": "1.16.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libsndfile",
+      "description": "Enable libsndfile support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libsndfile",
+          "version": "1.2.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libusb",
+      "description": "Enable libusb support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libusb",
+          "version": "1.0.26",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Opus",
+      "description": "Enable opus support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Opus",
+          "version": "1.3.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Valgrind",
+      "description": "Enable valgrind support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Valgrind",
+          "version": "3.21.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Xorg-Libraries",
+      "description": "Enable xorg-libraries support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Xorg-Libraries",
+          "version": "21.1.8",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
