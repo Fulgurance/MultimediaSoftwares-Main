@@ -2,21 +2,21 @@
   "port": "MultimediaSoftwares-Main",
   "name": "Pulseaudio",
   "version": "16.1.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Sound server system for POSIX OS",
   "website": "https://www.freedesktop.org/wiki/Software/PulseAudio/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "MultimediaLibraries-Main",
       "name": "Libsndfile",
-      "version": "1.2.2",
+      "version": ">=1.2.2",
       "options": []
     },
     {
+      "port": "ProgrammingTools-Main",
       "name": "Check",
-      "version": "0.15.2",
+      "version": ">=0.15.2",
       "options": []
     }
   ],
@@ -28,8 +28,9 @@
       "active": true,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Alsa-Lib",
-          "version": "1.2.9",
+          "version": ">=1.2.9",
           "options": []
         }
       ],
@@ -41,8 +42,9 @@
       "active": true,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Dbus",
-          "version": "1.14.8",
+          "version": ">=1.14.8",
           "options": []
         }
       ],
@@ -54,8 +56,9 @@
       "active": true,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Elogind",
-          "version": "252.9.0",
+          "version": ">=252.9.0",
           "options": []
         }
       ],
@@ -67,8 +70,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Glib",
-          "version": "2.76.4",
+          "version": ">=2.76.4",
           "options": []
         }
       ],
@@ -80,8 +84,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Speex",
-          "version": "1.2.1",
+          "version": ">=1.2.1",
           "options": []
         }
       ],
@@ -93,8 +98,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "XorgBase-Main",
           "name": "Xorg-Libraries",
-          "version": "21.1.8",
+          "version": ">=21.1.8",
           "options": []
         }
       ],

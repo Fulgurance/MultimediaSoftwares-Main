@@ -2,14 +2,13 @@
   "port": "MultimediaSoftwares-Main",
   "name": "Vlc",
   "version": "3.0.18",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "VLC media player",
   "website": "https://github.com/videolan/vlc",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
       "version": ">=0.2.0",
       "options": []
@@ -23,6 +22,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Alsa-Lib",
           "version": ">=1.2.9",
           "options": []
@@ -36,6 +36,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Desktop-File-Utils",
           "version": ">=0.26.0",
           "options": []
@@ -49,6 +50,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Ffmpeg",
           "version": ">=6.0.0",
           "options": []
@@ -62,6 +64,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Liba52",
           "version": ">=0.7.4",
           "options": []
@@ -75,6 +78,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "SecurityLibraries-Main",
           "name": "Libgcrypt",
           "version": ">=1.10.2",
           "options": []
@@ -88,6 +92,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libmad",
           "version": ">=0.15.1+b",
           "options": []
@@ -101,6 +106,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "ProgrammingLanguages-Main",
           "name": "Lua",
           "version": ">=5.2.4",
           "options": []
@@ -114,6 +120,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Dbus",
           "version": ">=1.14.8",
           "options": []
@@ -127,6 +134,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Libidn",
           "version": ">=1.41.0",
           "options": []
@@ -140,6 +148,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "NetworkingLibraries-Main",
           "name": "Libssh2",
           "version": ">=1.11.0",
           "options": []
@@ -153,6 +162,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Libarchive",
           "version": ">=3.7.1",
           "options": []
@@ -166,6 +176,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "NetworkingLibraries-Main",
           "name": "Libcddb",
           "version": ">=1.3.2",
           "options": []
@@ -179,6 +190,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libdv",
           "version": ">=1.0.0",
           "options": []
@@ -192,6 +204,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libdvdcss",
           "version": ">=1.4.3",
           "options": []
@@ -205,6 +218,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libdvdread",
           "version": ">=6.1.3",
           "options": []
@@ -218,6 +232,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libdvdnav",
           "version": ">=6.1.1",
           "options": []
@@ -231,6 +246,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Opencv",
           "version": ">=4.8.0",
           "options": []
@@ -244,6 +260,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "NetworkingTools-Main",
           "name": "Samba",
           "version": ">=4.18.6",
           "options": []
@@ -257,6 +274,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaSoftwares-Main",
           "name": "V4l-Utils",
           "version": ">=1.24.1",
           "options": []
@@ -270,6 +288,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libogg",
           "version": ">=1.3.5",
           "options": []
@@ -283,6 +302,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Faad2",
           "version": ">=2.10.1",
           "options": []
@@ -296,6 +316,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Flac",
           "version": ">=1.4.3",
           "options": []
@@ -309,6 +330,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libaom",
           "version": ">=3.6.1",
           "options": []
@@ -322,6 +344,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libass",
           "version": ">=0.17.1",
           "options": []
@@ -335,6 +358,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libmpeg2",
           "version": ">=0.5.1",
           "options": []
@@ -348,6 +372,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Libpng",
           "version": ">=1.6.40",
           "options": []
@@ -361,6 +386,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libtheora",
           "version": ">=1.1.1",
           "options": []
@@ -374,6 +400,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libva",
           "version": ">=2.19.0",
           "options": []
@@ -387,6 +414,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libvorbis",
           "version": ">=1.3.7",
           "options": []
@@ -400,6 +428,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Opus",
           "version": ">=1.3.1",
           "options": []
@@ -413,6 +442,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Speex",
           "version": ">=1.2.1",
           "options": []
@@ -426,6 +456,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libvpx",
           "version": ">=1.13.0",
           "options": []
@@ -439,6 +470,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "X264",
           "version": ">=0.0.0+20230215",
           "options": []
@@ -452,6 +484,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Aalib",
           "version": ">=1.4.0-rc.5",
           "options": []
@@ -465,6 +498,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Fontconfig",
           "version": ">=2.14.2",
           "options": []
@@ -478,6 +512,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "FreeType",
           "version": ">=2.13.1",
           "options": []
@@ -491,6 +526,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Fribidi",
           "version": ">=1.0.13",
           "options": []
@@ -504,6 +540,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Librsvg",
           "version": ">=2.56.3",
           "options": []
@@ -517,6 +554,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libvdpau",
           "version": ">=1.5.0",
           "options": []
@@ -530,6 +568,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Sdl12-Compat",
           "version": ">=1.2.64",
           "options": []
@@ -543,6 +582,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaSoftwares-Main",
           "name": "Pulseaudio",
           "version": ">=16.1.0",
           "options": []
@@ -556,6 +596,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Libsamplerate",
           "version": ">=0.2.2",
           "options": []
@@ -569,6 +610,7 @@
       "active": true,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Qt",
           "version": ">=5.15.10",
           "options": []
@@ -582,6 +624,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "NetworkingTools-Extra",
           "name": "Avahi",
           "version": ">=0.8.0",
           "options": []
@@ -595,6 +638,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "SecurityLibraries-Main",
           "name": "Gnutls",
           "version": ">=3.8.1",
           "options": []
@@ -608,6 +652,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Libnotify",
           "version": ">=0.8.2",
           "options": []
@@ -621,6 +666,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Libxml2",
           "version": ">=2.10.4",
           "options": []
@@ -634,6 +680,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Taglib",
           "version": ">=1.13.1",
           "options": []
@@ -647,6 +694,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Xdg-Utils",
           "version": ">=1.1.3",
           "options": []
