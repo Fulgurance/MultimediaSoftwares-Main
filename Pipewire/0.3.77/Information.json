@@ -162,7 +162,7 @@
       "active": true,
       "dependencies": [
         {
-          "port": "MultimediaLibraries-Main",
+          "port": "MultimediaSoftwares-Main",
           "name": "Ffmpeg",
           "version": ">=6.0.0",
           "options": []
