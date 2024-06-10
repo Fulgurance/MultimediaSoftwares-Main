@@ -46,7 +46,7 @@ class Target < ISM::Software
     def install
         super
 
-        setPermissions("#{Ism.settings.rootPath}usr/bin/qt-faststart",0o755)
+        runChmodCommand(["0755","/usr/bin/qt-faststart"])
     end
 
 end
