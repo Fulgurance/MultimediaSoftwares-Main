@@ -3,8 +3,8 @@ class Target < ISM::Software
     def prepare
         super
 
-        deleteFile("#{mainWorkDirectoryPath(false)}/alsactl/init_sysdeps.c")
-        generateEmptyFile("#{mainWorkDirectoryPath(false)}/alsactl/init_sysdeps.c")
+        deleteFile("#{mainWorkDirectoryPath}/alsactl/init_sysdeps.c")
+        generateEmptyFile("#{mainWorkDirectoryPath}/alsactl/init_sysdeps.c")
     end
 
     def configure
@@ -29,7 +29,7 @@ class Target < ISM::Software
         makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
 
         if option("Openrc")
-            prepareOpenrcServiceInstallation("#{workDirectoryPath(false)}/Alsasound-Init.d","alsasound")
+            prepareOpenrcServiceInstallation("#{workDirectoryPath}/Alsasound-Init.d","alsasound")
         end
     end
 

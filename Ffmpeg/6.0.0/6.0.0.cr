@@ -38,9 +38,9 @@ class Target < ISM::Software
 
         makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
 
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/bin")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/bin")
 
-        copyFile("#{buildDirectoryPath(false)}tools/qt-faststart","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/bin/qt-faststart")
+        copyFile("#{buildDirectoryPath}tools/qt-faststart","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/bin/qt-faststart")
     end
 
     def install

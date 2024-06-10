@@ -31,7 +31,7 @@ class Target < ISM::Software
         runNinjaCommand(["install"],buildDirectoryPath,{"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
 
         if option("Dbus")
-            deleteFile("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}etc/dbus-1/system.d/pulseaudio-system.conf")
+            deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/dbus-1/system.d/pulseaudio-system.conf")
         end
     end
 
