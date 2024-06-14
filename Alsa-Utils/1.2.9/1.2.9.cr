@@ -10,10 +10,10 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource([   "--disable-alsaconf",
-                            "--disable-bat",
-                            "--disable-xmlto",
-                            "--with-curses=ncursesw"],
+        configureSource(arguments:  "--disable-alsaconf \
+                                    --disable-bat       \
+                                    --disable-xmlto     \
+                                    --with-curses=ncursesw",
                             buildDirectoryPath)
     end
 
@@ -26,17 +26,19 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
 
         if option("Openrc")
-            prepareOpenrcServiceInstallation("#{workDirectoryPath}/Alsasound-Init.d","alsasound")
+            prepareOpenrcServiceInstallation(   path:   "#{workDirectoryPath}/Alsasound-Init.d",
+                                                name:   "alsasound")
         end
     end
 
     def install
         super
 
-        runAlsactlCommand(["-L","store"])
+        runAlsactlCommand("-L store")
     end
 
 end

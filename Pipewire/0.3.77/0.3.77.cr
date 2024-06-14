@@ -8,13 +8,13 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand([   "setup",
-                            "--reconfigure",
-                            @buildDirectoryNames["MainBuild"],
-                            "--prefix=/usr",
-                            "--buildtype=release",
-                            "-Dsession-managers=\"[]\""],
-                            mainWorkDirectoryPath)
+        runMesonCommand(arguments:  "setup                                  \
+                                    --reconfigure                           \
+                                    #{@buildDirectoryNames["MainBuild"]}    \
+                                    --prefix=/usr                           \
+                                    --buildtype=release                     \
+                                    -Dsession-managers=\"[]\"",
+                        path:       mainWorkDirectoryPath)
     end
 
     def build
@@ -26,7 +26,9 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        runNinjaCommand(["install"],buildDirectoryPath,{"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
+        runNinjaCommand(arguments:      "install",
+                        path:           buildDirectoryPath,
+                        environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
     end
 
 end

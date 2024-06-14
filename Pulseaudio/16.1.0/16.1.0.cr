@@ -8,15 +8,15 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand([   "setup",
-                            "--reconfigure",
-                            @buildDirectoryNames["MainBuild"],
-                            "--prefix=/usr",
-                            "--buildtype=release",
-                            "-Ddatabase=gdbm",
-                            "-Ddoxygen=false",
-                            "-Dbluez5=disabled"],
-                            mainWorkDirectoryPath)
+        runMesonCommand(arguments:  "setup                                  \
+                                    --reconfigure                           \
+                                    #{@buildDirectoryNames["MainBuild"]}    \
+                                    --prefix=/usr                           \
+                                    --buildtype=release                     \
+                                    -Ddatabase=gdbm                         \
+                                    -Ddoxygen=false                         \
+                                    -Dbluez5=disabled",
+                        path:       mainWorkDirectoryPath)
     end
 
     def build
@@ -28,7 +28,9 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        runNinjaCommand(["install"],buildDirectoryPath,{"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
+        runNinjaCommand(arguments:      "install",
+                        path:           buildDirectoryPath,
+                        environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
 
         if option("Dbus")
             deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/dbus-1/system.d/pulseaudio-system.conf")
