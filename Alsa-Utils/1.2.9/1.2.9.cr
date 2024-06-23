@@ -14,7 +14,7 @@ class Target < ISM::Software
                                     --disable-bat       \
                                     --disable-xmlto     \
                                     --with-curses=ncursesw",
-                            buildDirectoryPath)
+                        path:       buildDirectoryPath)
     end
 
     def build
