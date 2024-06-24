@@ -29,8 +29,9 @@ class Target < ISM::Software
     def install
         super
 
-        runGtkUpdateIconCacheCommand("-qtf /usr/share/icons/hicolor")
-        runUpdateDesktopDatabaseCommand("-q")
+        #Optional: to run to improve performance but only if that command is installed
+        #runGtkUpdateIconCacheCommand("-qtf /usr/share/icons/hicolor")
+        #runUpdateDesktopDatabaseCommand("-q")
     end
 
 end
