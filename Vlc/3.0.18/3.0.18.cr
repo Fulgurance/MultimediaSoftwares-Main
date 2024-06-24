@@ -5,7 +5,8 @@ class Target < ISM::Software
 
         configureSource(arguments:      "--prefix=/usr  \
                                         --disable-libva \
-                                        --disable-lua",
+                                        --disable-lua   \
+                                        --disable-a52",
                         path:           buildDirectoryPath,
                         environment:    {"BUILDCC" => "gcc"})
     end
