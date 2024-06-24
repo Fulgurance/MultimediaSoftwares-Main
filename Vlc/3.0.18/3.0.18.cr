@@ -6,20 +6,14 @@ class Target < ISM::Software
         configureSource(arguments:      "--prefix=/usr  \
                                         --disable-libva",
                         path:           buildDirectoryPath,
-                        environment:    {   "LUAC" => "/usr/bin/luac5.2",
-                                            "LUA_LIBS" => "\"$(pkg-config --libs lua52)\"",
-                                            "CPPFLAGS" => "\"$(pkg-config --cflags lua52)\"",
-                                            "BUILDCC" => "gcc"})
+                        environment:    {"BUILDCC" => "gcc"})
     end
 
     def build
         super
 
         makeSource( path: buildDirectoryPath,
-                    environment: {  "LUAC" => "/usr/bin/luac5.2",
-                                    "LUA_LIBS" => "\"$(pkg-config --libs lua52)\"",
-                                    "CPPFLAGS" => "\"$(pkg-config --cflags lua52)\"",
-                                    "BUILDCC" => "gcc"})
+                    environment: {"BUILDCC" => "gcc"})
     end
 
     def prepareInstallation
@@ -27,10 +21,7 @@ class Target < ISM::Software
 
         makeSource( arguments:      "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
                     path:           buildDirectoryPath,
-                    environment:    {   "LUAC" => "/usr/bin/luac5.2",
-                                        "LUA_LIBS" => "\"$(pkg-config --libs lua52)\"",
-                                        "CPPFLAGS" => "\"$(pkg-config --cflags lua52)\"",
-                                        "BUILDCC" => "gcc"})
+                    environment:    {"BUILDCC" => "gcc"})
     end
 
     def install
