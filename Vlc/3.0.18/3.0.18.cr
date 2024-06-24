@@ -4,7 +4,8 @@ class Target < ISM::Software
         super
 
         configureSource(arguments:      "--prefix=/usr  \
-                                        --disable-libva",
+                                        --disable-libva \
+                                        --disable-lua",
                         path:           buildDirectoryPath,
                         environment:    {"BUILDCC" => "gcc"})
     end
