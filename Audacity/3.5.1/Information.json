@@ -12,12 +12,6 @@
       "name": "Cmake",
       "version": ">=3.27.2",
       "options": []
-    },
-    {
-      "port": "ProgrammingLanguages-Main",
-      "name": "Python",
-      "version": ">=3.11.4",
-      "options": ["Sqlite"]
     }
   ],
   "kernelDependencies": [],
