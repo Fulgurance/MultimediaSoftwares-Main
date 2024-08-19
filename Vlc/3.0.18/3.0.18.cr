@@ -29,11 +29,11 @@ class Target < ISM::Software
     def install
         super
 
-        if softwareIsInstalled("Gtk+")
+        if softwareIsInstalled("@GraphicsLibraries-Main:Gtk+")
             runGtkUpdateIconCacheCommand("-qtf /usr/share/icons/hicolor")
         end
 
-        if softwareIsInstalled("Desktop-File-Utils")
+        if softwareIsInstalled("@Utilities-Main:Desktop-File-Utils")
             runUpdateDesktopDatabaseCommand("-q")
         end
     end
