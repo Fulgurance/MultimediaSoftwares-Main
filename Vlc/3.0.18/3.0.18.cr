@@ -30,7 +30,7 @@ class Target < ISM::Software
         super
 
         if softwareIsInstalled("Gtk+")
-            runUpdateDesktopDatabaseCommand("-q")
+            runGtkUpdateIconCacheCommand("-qtf /usr/share/icons/hicolor")
         end
 
         if softwareIsInstalled("Desktop-File-Utils")
