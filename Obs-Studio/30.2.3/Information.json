@@ -30,6 +30,12 @@
       "name": "Libglvnd",
       "version": ">=1.7.0",
       "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Uthash",
+      "version": ">=2.3.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
