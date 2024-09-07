@@ -24,6 +24,12 @@
       "name": "Mesa",
       "version": ">=23.1.6",
       "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libglvnd",
+      "version": ">=1.7.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
