@@ -1,7 +1,7 @@
 {
   "port": "MultimediaSoftwares-Main",
   "name": "Obs-Studio",
-  "version": "30.20.3",
+  "version": "30.2.3",
   "architectures": ["x86_64"],
   "description": "Free and open source software for video recording and live streaming.",
   "website": "https://obsproject.com/",
