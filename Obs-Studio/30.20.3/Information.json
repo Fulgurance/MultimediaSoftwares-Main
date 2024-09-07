@@ -1,0 +1,35 @@
+{
+  "port": "MultimediaSoftwares-Main",
+  "name": "Obs-Studio",
+  "version": "30.20.3",
+  "architectures": ["x86_64"],
+  "description": "Free and open source software for video recording and live streaming.",
+  "website": "https://obsproject.com/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Cmake",
+      "version": ">=3.27.2",
+      "options": []
+    },
+    {
+      "port": "MultimediaSoftwares-Main",
+      "name": "Ffmpeg",
+      "version": ">=6.0.0",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Mesa",
+      "version": ">=23.1.6",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
