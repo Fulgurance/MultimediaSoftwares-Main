@@ -17,6 +17,20 @@
   "kernelDependencies": [],
   "options": [
     {
+      "name": "Qv4l2",
+      "description": "Enable qv4l2 support",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Qvidcap",
+      "description": "Enable qvidcap support",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
       "name": "Alsa-Lib",
       "description": "Enable alsa-lib support",
       "active": false,
