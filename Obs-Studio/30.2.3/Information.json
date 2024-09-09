@@ -48,6 +48,12 @@
       "name": "Qt",
       "version": ">=6.0.0",
       "options": []
+    },
+    {
+      "port": "MultimediaLibraries-Main",
+      "name": "Libvpl",
+      "version": ">=2.6.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
