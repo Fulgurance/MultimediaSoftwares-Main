@@ -11,6 +11,7 @@ class Target < ISM::Software
         runCmakeCommand(arguments:  "-DCMAKE_INSTALL_PREFIX=/usr    \
                                     -DCMAKE_BUILD_TYPE=Release      \
                                     -DENABLE_SCRIPTING=OFF          \
+                                    -DBUILD_BROWSER=OFF             \
                                     ..",
                         path:       buildDirectoryPath)
     end
