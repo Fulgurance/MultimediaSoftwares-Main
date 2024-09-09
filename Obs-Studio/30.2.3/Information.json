@@ -60,6 +60,12 @@
       "name": "Libva",
       "version": ">=2.19.0",
       "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "NlohmannJson",
+      "version": ">=3.7.3",
+      "options": []
     }
   ],
   "kernelDependencies": [],
