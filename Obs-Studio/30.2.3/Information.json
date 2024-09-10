@@ -66,6 +66,12 @@
       "name": "NlohmannJson",
       "version": ">=3.7.3",
       "options": []
+    },
+    {
+      "port": "MultimediaLibraries-Main",
+      "name": "X264",
+      "version": ">=0.0.0-20230215",
+      "options": []
     }
   ],
   "kernelDependencies": [],
