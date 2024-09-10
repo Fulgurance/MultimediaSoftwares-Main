@@ -12,6 +12,7 @@ class Target < ISM::Software
                                     -DCMAKE_BUILD_TYPE=Release      \
                                     -DENABLE_SCRIPTING=OFF          \
                                     -DBUILD_BROWSER=OFF             \
+                                    -DENABLE_WEBSOCKET=OFF          \
                                     ..",
                         path:       buildDirectoryPath)
     end
