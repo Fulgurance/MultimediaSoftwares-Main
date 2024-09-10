@@ -17,6 +17,7 @@ class Target < ISM::Software
                                     -DENABLE_NATIVE_NVENC=OFF       \
                                     -DENABLE_SPEEXDSP=OFF           \
                                     -DENABLE_AJA=OFF                \
+                                    -DENABLE_WEBRTC=OFF             \
                                     ..",
                         path:       buildDirectoryPath)
     end
