@@ -14,6 +14,7 @@ class Target < ISM::Software
                                     -DBUILD_BROWSER=OFF             \
                                     -DENABLE_WEBSOCKET=OFF          \
                                     -DENABLE_NEW_MPEGTS_OUTPUT=OFF  \
+                                    -DENABLE_NATIVE_NVENC=OFF       \
                                     ..",
                         path:       buildDirectoryPath)
     end
