@@ -13,6 +13,7 @@ class Target < ISM::Software
                                     -DENABLE_SCRIPTING=OFF          \
                                     -DBUILD_BROWSER=OFF             \
                                     -DENABLE_WEBSOCKET=OFF          \
+                                    -DENABLE_NEW_MPEGTS_OUTPUT=OFF  \
                                     ..",
                         path:       buildDirectoryPath)
     end
