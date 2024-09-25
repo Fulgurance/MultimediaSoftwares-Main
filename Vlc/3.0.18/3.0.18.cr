@@ -6,7 +6,8 @@ class Target < ISM::Software
         configureSource(arguments:      "--prefix=/usr  \
                                         --disable-libva \
                                         --disable-lua   \
-                                        --disable-a52",
+                                        --disable-a52   \
+                                        #{option("Ffmpeg") ? "" : "--disable-avcodec"}",
                         path:           buildDirectoryPath,
                         environment:    {"BUILDCC" => "gcc"})
     end

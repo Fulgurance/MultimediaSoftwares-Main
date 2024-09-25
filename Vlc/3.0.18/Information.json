@@ -47,7 +47,7 @@
     {
       "name": "Ffmpeg",
       "description": "Enable ffmpeg support",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "port": "MultimediaLibraries-Main",
