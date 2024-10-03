@@ -18,6 +18,12 @@
       "name": "Check",
       "version": ">=0.15.2",
       "options": []
+    },
+    {
+      "port": "Xml-Main",
+      "name": "Xml-Parser",
+      "version": ">=2.46.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
