@@ -17,7 +17,7 @@ class Target < ISM::Software
                                     #{option("Lame") ? "--enable-libmp3lame" : ""}          \
                                     #{option("Opus") ? "--enable-libopus" : ""}             \
                                     #{option("Libtheora") ? "--enable-libtheora" : ""}      \
-                                    --enable-libvorbis                                      \
+                                    #{option("Libvorbis") ? "--enable-libvorbis" : ""}      \
                                     #{option("Libvpx") ? "--enable-libvpx" : ""}            \
                                     #{option("X264") ? "--enable-libx264" : ""}             \
                                     #{option("X265") ? "--enable-libx265" : ""}             \
