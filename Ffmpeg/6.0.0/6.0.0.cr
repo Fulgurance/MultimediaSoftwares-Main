@@ -3,25 +3,25 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource(arguments:  "--prefix=/usr                                      \
-                                    --enable-gpl                                        \
-                                    --enable-version3                                   \
-                                    --enable-nonfree                                    \
-                                    --disable-static                                    \
-                                    --enable-shared                                     \
-                                    --disable-debug                                     \
-                                    #{option("Libaom") ? "--enable-libaom" : ""}        \
-                                    #{option("Libass") ? "--enable-libass" : ""}        \
-                                    #{option("Fdk-Aac") ? "--enable-libfdk-aac" : ""}   \
-                                    --enable-libfreetype                                \
-                                    #{option("Lame") ? "--enable-libmp3lame" : ""}      \
-                                    #{option("Opus") ? "--enable-libopus" : ""}         \
-                                    #{option("Libtheora") ? "--enable-libtheora" : ""}  \
-                                    --enable-libvorbis                                  \
-                                    #{option("Libvpx") ? "--enable-libvpx" : ""}        \
-                                    #{option("X264") ? "--enable-libx264" : ""}         \
-                                    #{option("X265") ? "--enable-libx265" : ""}         \
-                                    --enable-openssl                                    \
+        configureSource(arguments:  "--prefix=/usr                                          \
+                                    --enable-gpl                                            \
+                                    --enable-version3                                       \
+                                    --enable-nonfree                                        \
+                                    --disable-static                                        \
+                                    --enable-shared                                         \
+                                    --disable-debug                                         \
+                                    #{option("Libaom") ? "--enable-libaom" : ""}            \
+                                    #{option("Libass") ? "--enable-libass" : ""}            \
+                                    #{option("Fdk-Aac") ? "--enable-libfdk-aac" : ""}       \
+                                    #{option("FreeType") ? "--enable-libfreetype " : ""}    \
+                                    #{option("Lame") ? "--enable-libmp3lame" : ""}          \
+                                    #{option("Opus") ? "--enable-libopus" : ""}             \
+                                    #{option("Libtheora") ? "--enable-libtheora" : ""}      \
+                                    --enable-libvorbis                                      \
+                                    #{option("Libvpx") ? "--enable-libvpx" : ""}            \
+                                    #{option("X264") ? "--enable-libx264" : ""}             \
+                                    #{option("X265") ? "--enable-libx265" : ""}             \
+                                    --enable-openssl                                        \
                                     --docdir=/usr/share/doc/ffmpeg-6.0",
                         path:       buildDirectoryPath)
     end
