@@ -18,6 +18,7 @@ class Target < ISM::Software
                                     -DENABLE_SPEEXDSP=OFF           \
                                     -DENABLE_AJA=OFF                \
                                     -DENABLE_WEBRTC=OFF             \
+                                    -DENABLE_VLC=OFF                \
                                     ..",
                         path:       buildDirectoryPath)
     end
