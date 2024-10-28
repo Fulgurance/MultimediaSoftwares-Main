@@ -39,6 +39,12 @@
     },
     {
       "port": "MultimediaSoftwares-Main",
+      "name": "Pipewire",
+      "version": ">=0.3.33",
+      "options": []
+    },
+    {
+      "port": "MultimediaSoftwares-Main",
       "name": "V4l-Utils",
       "version": ">=1.24.1",
       "options": []
