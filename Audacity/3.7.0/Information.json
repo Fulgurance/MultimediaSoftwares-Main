@@ -1,0 +1,29 @@
+{
+  "port": "MultimediaSoftwares-Main",
+  "name": "Audacity",
+  "version": "3.7.0",
+  "architectures": ["x86_64"],
+  "description": "World's most popular audio editing and recording app",
+  "website": "https://www.audacityteam.org/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Cmake",
+      "version": ">=3.27.2",
+      "options": []
+    },
+    {
+      "port": "ProgrammingLanguages-Main",
+      "name": "Python",
+      "version": ">=3.11.4",
+      "options": ["Sqlite"]
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

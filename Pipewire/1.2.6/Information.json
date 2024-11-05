@@ -1,7 +1,7 @@
 {
   "port": "MultimediaSoftwares-Main",
   "name": "Pipewire",
-  "version": "0.3.77",
+  "version": "1.2.6",
   "architectures": ["x86_64"],
   "description": "Multimedia processing graphs",
   "website": "https://gitlab.freedesktop.org/pipewire/pipewire/",

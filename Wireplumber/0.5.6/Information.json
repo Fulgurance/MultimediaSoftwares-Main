@@ -1,0 +1,41 @@
+{
+  "port": "MultimediaSoftwares-Main",
+  "name": "Wireplumber",
+  "version": "0.5.6",
+  "architectures": ["x86_64"],
+  "description": "Session / policy manager implementation for PipeWire",
+  "website": "https://gitlab.freedesktop.org/pipewire/wireplumber",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "Utilities-Main",
+      "name": "Elogind",
+      "version": ">=252.9.0",
+      "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Glib",
+      "version": ">=2.82.2",
+      "options": []
+    },
+    {
+      "port": "MultimediaSoftwares-Main",
+      "name": "Pipewire",
+      "version": ">=1.2.6",
+      "options": []
+    },
+    {
+      "port": "ProgrammingLanguages-Main",
+      "name": "Lua",
+      "version": ">=5.4.7",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
