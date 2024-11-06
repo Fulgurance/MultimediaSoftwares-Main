@@ -30,7 +30,7 @@ class Target < ISM::Software
     def install
         super
 
-        if softwareIsInstalled("@GraphicsLibraries-Main:Gtk+")
+        if softwareIsInstalled("@GraphicsLibraries-Main:Gtk")
             runGtkUpdateIconCacheCommand("-qtf /usr/share/icons/hicolor")
         end
 

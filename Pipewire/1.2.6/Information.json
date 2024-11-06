@@ -204,7 +204,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "GraphicsLibraries-Main",
+          "port": "XorgBase-Main",
           "name": "Libxcb",
           "version": ">=1.16.0",
           "options": []
