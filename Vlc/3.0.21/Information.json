@@ -1,7 +1,7 @@
 {
   "port": "MultimediaSoftwares-Main",
   "name": "Vlc",
-  "version": "3.0.20",
+  "version": "3.0.21",
   "architectures": ["x86_64"],
   "description": "VLC media player",
   "website": "https://github.com/videolan/vlc",
