@@ -7,6 +7,7 @@ class Target < ISM::Software
                                         --disable-libva \
                                         --disable-lua   \
                                         --disable-a52   \
+                                        --disable-libplacebo    \
                                         #{option("Qt") ? "--enable-qt" : "--disable-qt"}  \
                                         #{option("Ffmpeg") ? "" : "--disable-avcodec"}",
                         path:           buildDirectoryPath,
