@@ -173,7 +173,7 @@
     {
       "name": "Nasm",
       "description": "Enable nasm support",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "port": "ProgrammingTools-Main",
