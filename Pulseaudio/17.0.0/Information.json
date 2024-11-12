@@ -24,6 +24,12 @@
       "name": "Xml-Parser",
       "version": ">=2.46.0",
       "options": []
+    },
+    {
+      "port": "SystemUsers-Main",
+      "name": "Pulse",
+      "version": ">=0.1.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
