@@ -8,9 +8,9 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "MultimediaSoftwares-Main",
-      "name": "Wireplumber",
-      "version": ">=0.5.5",
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
       "options": []
     }
   ],
@@ -281,10 +281,24 @@
         }
       ],
       "kernelDependencies": []
+    },
+    {
+      "name": "Wireplumber",
+      "description": "Enable wireplumber support",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "MultimediaSoftwares-Main",
+          "name": "Wireplumber",
+          "version": ">=0.5.5",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
     }
   ],
   "uniqueDependencies": [],
   "uniqueOptions": [],
   "selectedDependencies": [],
-  "allowCodependencies": []
+  "allowCodependencies": ["@MultimediaSoftwares-Main:Wireplumber"]
 }
