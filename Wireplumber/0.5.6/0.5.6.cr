@@ -13,8 +13,7 @@ class Target < ISM::Software
                                     #{@buildDirectoryNames["MainBuild"]}    \
                                     --prefix=/usr                           \
                                     --buildtype=release                     \
-                                    -Dsystem-lua=true                       \
-                                    ..",
+                                    -Dsystem-lua=true",
                         path:       mainWorkDirectoryPath)
     end
 
