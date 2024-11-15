@@ -8,6 +8,7 @@ class Target < ISM::Software
                                         --disable-lua   \
                                         --disable-a52   \
                                         --disable-libplacebo    \
+                                        --disable-xcb   \
                                         #{option("Alsa-Lib") ? "--enable-alsa" : "--disable-alsa"}  \
                                         #{option("Qt") ? "--enable-qt" : "--disable-qt"}  \
                                         #{option("Ffmpeg") ? "" : "--disable-avcodec"}",
