@@ -50,8 +50,8 @@
       "options": []
     },
     {
-      "port": "BaseLibraries-Main",
-      "name": "Qt",
+      "port": "QtLibraries-Main",
+      "name": "Qtbase",
       "version": ">=6.0.0",
       "options": []
     },
