@@ -607,7 +607,7 @@
     {
       "name": "Qtbase",
       "description": "Enable qtbase support",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "port": "QtLibraries-Main",
