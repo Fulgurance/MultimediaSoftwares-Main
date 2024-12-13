@@ -605,13 +605,13 @@
       "kernelDependencies": []
     },
     {
-      "name": "Qtbase",
-      "description": "Enable qtbase support",
+      "name": "Qtsvg",
+      "description": "Enable qtsvg support",
       "active": true,
       "dependencies": [
         {
           "port": "QtLibraries-Main",
-          "name": "Qtbase",
+          "name": "Qtsvg",
           "version": ">=5.0.0 ~ <6.0.0",
           "options": []
         }
