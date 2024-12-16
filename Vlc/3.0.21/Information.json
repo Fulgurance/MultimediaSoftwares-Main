@@ -605,13 +605,19 @@
       "kernelDependencies": []
     },
     {
-      "name": "Qtsvg",
-      "description": "Enable qtsvg support",
+      "name": "Qt",
+      "description": "Enable qt support",
       "active": true,
       "dependencies": [
         {
           "port": "QtLibraries-Main",
           "name": "Qtsvg",
+          "version": ">=5.0.0 ~ <6.0.0",
+          "options": []
+        },
+        {
+          "port": "QtLibraries-Main",
+          "name": "Qtx11extras",
           "version": ">=5.0.0 ~ <6.0.0",
           "options": []
         }
