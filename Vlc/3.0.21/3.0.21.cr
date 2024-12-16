@@ -10,8 +10,8 @@ class Target < ISM::Software
                                         --disable-libplacebo    \
                                         --disable-xcb   \
                                         #{option("Alsa-Lib") ? "--enable-alsa" : "--disable-alsa"}  \
-                                        #{option("Qtbase") ? "--enable-qt" : "--disable-qt"}  \
-                                        #{option("Ffmpeg") ? "" : "--disable-avcodec"}",
+                                        #{option("Qt") ? "--enable-qt" : "--disable-qt"}  \
+                                        #{option("Ffmpeg") ? "--enable-avcodec" : "--disable-avcodec"}",
                         path:           buildDirectoryPath,
                         environment:    {"BUILDCC" => "gcc"})
     end

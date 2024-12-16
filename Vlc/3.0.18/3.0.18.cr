@@ -7,7 +7,8 @@ class Target < ISM::Software
                                         --disable-libva \
                                         --disable-lua   \
                                         --disable-a52   \
-                                        #{option("Ffmpeg") ? "" : "--disable-avcodec"}",
+                                        #{option("Qt") ? "--enable-qt" : "--disable-qt"}    \
+                                        #{option("Ffmpeg") ? "--enable-avcodec" : "--disable-avcodec"}",
                         path:           buildDirectoryPath,
                         environment:    {"BUILDCC" => "gcc"})
     end
