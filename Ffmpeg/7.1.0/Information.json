@@ -17,6 +17,20 @@
   "kernelDependencies": [],
   "options": [
     {
+      "name": "Opencl-Headers",
+      "description": "Enable opencl-headers support",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Opencl-Headers",
+          "version": ">=0.0.0-20241024",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
       "name": "Libaom",
       "description": "Enable libaom support",
       "active": false,

@@ -21,7 +21,7 @@ class Target < ISM::Software
                                     #{option("Libvpx") ? "--enable-libvpx" : ""}            \
                                     #{option("X264") ? "--enable-libx264" : ""}             \
                                     #{option("X265") ? "--enable-libx265" : ""}             \
-                                    --enable-opencl                                         \
+                                    #{option("Opencl-Headers") ? "--enable-opencl" : ""}    \
                                     --enable-opengl                                         \
                                     --enable-nvdec                                          \
                                     --enable-nvenc                                          \
