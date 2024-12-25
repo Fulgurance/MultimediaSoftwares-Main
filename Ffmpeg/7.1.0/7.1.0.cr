@@ -21,6 +21,10 @@ class Target < ISM::Software
                                     #{option("Libvpx") ? "--enable-libvpx" : ""}            \
                                     #{option("X264") ? "--enable-libx264" : ""}             \
                                     #{option("X265") ? "--enable-libx265" : ""}             \
+                                    --enable-opencl                                         \
+                                    --enable-opengl                                         \
+                                    --enable-nvdec                                          \
+                                    --enable-nvenc                                          \
                                     --enable-openssl                                        \
                                     #{option("Nasm") || option("Yasm") ? "--enable-asm" : "--disable-asm"}  \
                                     --docdir=/usr/share/doc/#{versionName}",
