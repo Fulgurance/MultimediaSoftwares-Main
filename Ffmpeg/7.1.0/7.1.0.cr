@@ -23,8 +23,8 @@ class Target < ISM::Software
                                     #{option("X265") ? "--enable-libx265" : ""}             \
                                     #{option("Opencl-Headers") ? "--enable-opencl" : ""}    \
                                     --enable-opengl                                         \
-                                    --enable-nvdec                                          \
-                                    --enable-nvenc                                          \
+                                    #{option("Nv-Codec-Headers") ? "--enable-nvdec" : ""}   \
+                                    #{option("Opencl-Headers") ? "--enable-nvenc" : ""}     \
                                     --enable-openssl                                        \
                                     #{option("Nasm") || option("Yasm") ? "--enable-asm" : "--disable-asm"}  \
                                     --docdir=/usr/share/doc/#{versionName}",

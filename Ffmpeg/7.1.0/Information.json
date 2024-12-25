@@ -31,6 +31,20 @@
       "kernelDependencies": []
     },
     {
+      "name": "Nv-Codec-Headers",
+      "description": "Enable nv-codec-headers support",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Nv-Codec-Headers",
+          "version": ">=0.0.0-20241024",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
       "name": "Libaom",
       "description": "Enable libaom support",
       "active": false,
