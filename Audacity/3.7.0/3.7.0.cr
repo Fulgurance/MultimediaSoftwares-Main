@@ -38,7 +38,7 @@ class Target < ISM::Software
                                     -Daudacity_use_nyquist=local            \
                                     -Daudacity_use_opusfile=off             \
                                     -Daudacity_use_pch=off                  \
-                                    -Daudacity_use_portaudio=off            \
+                                    -Daudacity_use_portaudio=system         \
                                     -Daudacity_use_portmixer=off            \
                                     -Daudacity_use_portsmf=off              \
                                     -Daudacity_use_rapidjson=off            \
