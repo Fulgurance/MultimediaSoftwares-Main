@@ -27,7 +27,7 @@ class Target < ISM::Software
                                     -Daudacity_use_lame=off                 \
                                     -Daudacity_use_wxwidgets=system         \
                                     -Daudacity_use_libflac=off              \
-                                    -Daudacity_use_libmp3lame=off           \
+                                    -Daudacity_use_libmp3lame=system        \
                                     -Daudacity_use_libmpg123=off            \
                                     -Daudacity_use_libogg=off               \
                                     -Daudacity_use_libopus=off              \
