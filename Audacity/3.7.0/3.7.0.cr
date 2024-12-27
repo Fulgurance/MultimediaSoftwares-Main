@@ -19,7 +19,7 @@ class Target < ISM::Software
                                     -Daudacity_has_crashreports=off         \
                                     -Daudacity_has_tests=off                \
                                     -Daudacity_lib_preference=system        \
-                                    -Daudacity_obey_off_dependencies=on     \
+                                    -Daudacity_obey_off_dependencies=off    \
                                     -Daudacity_use_expat=system             \
                                     -Daudacity_use_ffmpeg=off               \
                                     -Daudacity_use_libid3tag=off            \
