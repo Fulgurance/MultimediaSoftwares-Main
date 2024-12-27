@@ -41,7 +41,7 @@ class Target < ISM::Software
                                     -Daudacity_use_portaudio=system         \
                                     -Daudacity_use_portmixer=off            \
                                     -Daudacity_use_portsmf=off              \
-                                    -Daudacity_use_rapidjson=off            \
+                                    -Daudacity_use_rapidjson=system         \
                                     -Daudacity_use_sbsms=off                \
                                     -Daudacity_use_soundtouch=off           \
                                     -Daudacity_use_soxr=off                 \
