@@ -24,6 +24,12 @@
       "name": "WxWidgets",
       "version": ">=3.2.6",
       "options": []
+    },
+    {
+      "port": "MultimediaLibraries-Main",
+      "name": "Lame",
+      "version": ">=3.100.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
