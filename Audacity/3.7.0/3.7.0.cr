@@ -44,7 +44,7 @@ class Target < ISM::Software
                                     -Daudacity_use_rapidjson=system         \
                                     -Daudacity_use_sbsms=off                \
                                     -Daudacity_use_soundtouch=off           \
-                                    -Daudacity_use_soxr=off                 \
+                                    -Daudacity_use_soxr=system              \
                                     -Daudacity_use_twolame=off              \
                                     -Daudacity_use_vamp=off                 \
                                     -Daudacity_use_wavpack=off              \
