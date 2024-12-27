@@ -18,6 +18,12 @@
       "name": "Python",
       "version": ">=3.11.4",
       "options": ["Sqlite"]
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "WxWidgets",
+      "version": ">=3.2.6",
+      "options": []
     }
   ],
   "kernelDependencies": [],
