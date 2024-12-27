@@ -30,6 +30,12 @@
       "name": "Lame",
       "version": ">=3.100.0",
       "options": []
+    },
+    {
+      "port": "MultimediaLibraries-Main",
+      "name": "Portaudio",
+      "version": ">=19.7.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
