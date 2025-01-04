@@ -17,8 +17,8 @@
   "kernelDependencies": [],
   "options": [
     {
-      "name": "Opencl-Headers",
-      "description": "Enable opencl-headers support",
+      "name": "Opencl-Icd-Loader",
+      "description": "Enable opencl-icd-loader support",
       "active": true,
       "dependencies": [
         {
