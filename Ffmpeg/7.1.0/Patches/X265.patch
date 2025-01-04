@@ -1,5 +1,5 @@
---- libavcodec/libx265.c.orig	2025-01-04 21:36:03.475961960 +0000
-+++ libavcodec/libx265.c	2025-01-04 22:36:46.266424237 +0000
+--- Ffmpeg-7.1.0.orig/libavcodec/libx265.c	2025-01-04 21:36:03.475961960 +0000
++++ Ffmpeg-7.1.0/libavcodec/libx265.c	2025-01-04 22:36:46.266424237 +0000
 @@ -661,7 +661,7 @@
  {
      libx265Context *ctx = avctx->priv_data;
