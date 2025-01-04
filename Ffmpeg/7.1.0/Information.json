@@ -281,6 +281,20 @@
         }
       ],
       "kernelDependencies": []
+    },
+    {
+      "name": "Mesa",
+      "description": "Enable mesa support",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Mesa",
+          "version": ">=23.1.6",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
     }
   ],
   "uniqueDependencies": [],

@@ -22,7 +22,7 @@ class Target < ISM::Software
                                     #{option("X264") ? "--enable-libx264" : ""}             \
                                     #{option("X265") ? "--enable-libx265" : ""}             \
                                     #{option("Opencl-Headers") ? "--enable-opencl" : ""}    \
-                                    --enable-opengl                                         \
+                                    #{option("Mesa") ? "--enable-opencl" : ""}              \
                                     #{option("Nv-Codec-Headers") ? "--enable-nvdec" : ""}   \
                                     #{option("Opencl-Headers") ? "--enable-nvenc" : ""}     \
                                     --enable-openssl                                        \
