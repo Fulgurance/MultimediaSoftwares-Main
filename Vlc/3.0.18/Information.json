@@ -260,7 +260,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "NetworkingTools-Main",
+          "port": "NetworkingSoftwares-Main",
           "name": "Samba",
           "version": ">=4.18.6",
           "options": []
@@ -630,7 +630,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "NetworkingTools-Extra",
+          "port": "NetworkingSoftwares-Main",
           "name": "Avahi",
           "version": ">=0.8.0",
           "options": []
