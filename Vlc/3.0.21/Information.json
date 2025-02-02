@@ -607,7 +607,7 @@
     {
       "name": "Qt",
       "description": "Enable qt support",
-      "active": true,
+      "active": false,
       "dependencies": [
         {
           "port": "QtLibraries-Main",
