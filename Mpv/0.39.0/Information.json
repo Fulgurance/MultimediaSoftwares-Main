@@ -1,0 +1,124 @@
+{
+  "port": "MultimediaSoftwares-Main",
+  "name": "Mpv",
+  "version": "0.39.0",
+  "architectures": ["x86_64"],
+  "description": "Command line video player",
+  "website": "https://github.com/mpv-player/mpv",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "MultimediaLibraries-Main",
+      "name": "Alsa-Lib",
+      "version": ">=1.2.12",
+      "options": []
+    },
+    {
+      "port": "MultimediaSoftwares-Main",
+      "name": "Ffmpeg",
+      "version": ">=7.1.0",
+      "options": []
+    },
+    {
+      "port": "MultimediaLibraries-Main",
+      "name": "Libass",
+      "version": ">=0.17.3",
+      "options": []
+    },
+    {
+      "port": "MultimediaLibraries-Main",
+      "name": "Libplacebo",
+      "version": ">=7.349.0",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Mesa",
+      "version": ">=24.1.5",
+      "options": []
+    },
+    {
+      "port": "MultimediaSoftwares-Main",
+      "name": "Pulseaudio",
+      "version": ">=17.0.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Libjpeg-Turbo",
+      "description": "Enable libjpeg-turbo support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libjpeg-Turbo",
+          "version": ">=3.0.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libva",
+      "description": "Enable libva support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "MultimediaLibraries-Main",
+          "name": "Libva",
+          "version": ">=2.22.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libvdpau",
+      "description": "Enable libvdpau support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libvdpau",
+          "version": ">=1.5.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Lua",
+      "description": "Enable lua support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "ProgrammingLanguages-Main",
+          "name": "Lua",
+          "version": ">=5.4.7",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Pipewire",
+      "description": "Enable pipewire support",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "MultimediaSoftwares-Main",
+          "name": "Pipewire",
+          "version": ">=1.2.6",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
