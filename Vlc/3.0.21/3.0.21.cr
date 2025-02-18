@@ -29,6 +29,10 @@ class Target < ISM::Software
         makeSource( arguments:      "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
                     path:           buildDirectoryPath,
                     environment:    {"BUILDCC" => "gcc"})
+
+        if !option("Qt")
+            deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/applications/vlc.desktop")
+        end
     end
 
     def install
