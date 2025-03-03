@@ -52,10 +52,4 @@ class Target < ISM::Software
                     "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/bin/qt-faststart")
     end
 
-    def install
-        super
-
-        runChmodCommand("0755 /usr/bin/qt-faststart")
-    end
-
 end
