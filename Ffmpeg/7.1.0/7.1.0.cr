@@ -27,7 +27,7 @@ class Target < ISM::Software
                                     #{option("Opencl-Headers") ? "--enable-nvenc" : ""}     \
                                     --enable-openssl                                        \
                                     #{option("Nasm") || option("Yasm") ? "--enable-asm" : "--disable-asm"}  \
-                                    --docdir=/usr/share/doc/#{versionName}",
+                                    --disable-doc",
                         path:       buildDirectoryPath)
     end
 
