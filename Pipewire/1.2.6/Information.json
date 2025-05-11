@@ -53,21 +53,7 @@
           "port": "MultimediaLibraries-Main",
           "name": "Gstreamer",
           "version": ">=1.22.5",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Gst-Plugins-Base",
-      "description": "Enable gst-plugins-base support",
-      "active": true,
-      "dependencies": [
-        {
-          "port": "MultimediaLibraries-Main",
-          "name": "Gst-Plugins-Base",
-          "version": ">=1.22.5",
-          "options": []
+          "options": ["Base"]
         }
       ],
       "kernelDependencies": []
