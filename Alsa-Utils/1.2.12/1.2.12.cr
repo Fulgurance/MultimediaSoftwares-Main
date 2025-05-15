@@ -41,4 +41,12 @@ class Target < ISM::Software
         runAlsactlCommand("-L store")
     end
 
+    def deploy
+        if autoDeployServices
+            if option("Openrc")
+                runRcUpdateCommand("add alsasound boot")
+            end
+        end
+    end
+
 end
