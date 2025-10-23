@@ -1,0 +1,363 @@
+PORT
+    MultimediaSoftwares-Main
+NAME
+    Vlc
+VERSION
+    3.0.21
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    VLC media player
+WEBSITE
+    https://github.com/videolan/vlc
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Alsa-Lib
+    description: Enable alsa-lib support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Alsa-Lib>=1.2.9
+    kernelDependencies:
+
+    name: Desktop-File-Utils
+    description: Enable desktop-file-util support
+    active: false
+    dependencies:
+        @Utilities-Main:Desktop-File-Utils>=0.26.0
+    kernelDependencies:
+
+    name: Ffmpeg
+    description: Enable ffmpeg support
+    active: true
+    dependencies:
+        @MultimediaSoftwares-Main:Ffmpeg>=6.0.0
+    kernelDependencies:
+
+    name: Liba52
+    description: Enable liba52 support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Liba52>=0.7.4
+    kernelDependencies:
+
+    name: Libgcrypt
+    description: Enable libgcrypt support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Libgcrypt>=1.10.2
+    kernelDependencies:
+
+    name: Libmad
+    description: Enable libmad support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libmad>=0.15.1+b
+    kernelDependencies:
+
+    name: Lua
+    description: Enable lua support
+    active: false
+    dependencies:
+        @ProgrammingLanguages-Main:Lua>=5.2.4
+    kernelDependencies:
+
+    name: Dbus
+    description: Enable dbus support
+    active: false
+    dependencies:
+        @Utilities-Main:Dbus>=1.14.8
+    kernelDependencies:
+
+    name: Libidn
+    description: Enable libidn support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Libidn>=1.41.0
+    kernelDependencies:
+
+    name: Libssh2
+    description: Enable libssh2 support
+    active: false
+    dependencies:
+        @NetworkingLibraries-Main:Libssh2>=1.11.0
+    kernelDependencies:
+
+    name: Libarchive
+    description: Enable libarchive support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Libarchive>=3.7.1
+    kernelDependencies:
+
+    name: Libcddb
+    description: Enable libcddb support
+    active: false
+    dependencies:
+        @NetworkingLibraries-Main:Libcddb>=1.3.2
+    kernelDependencies:
+
+    name: Libdv
+    description: Enable libdv support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libdv>=1.0.0
+    kernelDependencies:
+
+    name: Libdvdcss
+    description: Enable libdvdcss support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libdvdcss>=1.4.3
+    kernelDependencies:
+
+    name: Libdvdread
+    description: Enable libdvdread support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libdvdread>=6.1.3
+    kernelDependencies:
+
+    name: Libdvdnav
+    description: Enable libdvdnav support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libdvdnav>=6.1.1
+    kernelDependencies:
+
+    name: Opencv
+    description: Enable opencv support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Opencv>=4.8.0
+    kernelDependencies:
+
+    name: Samba
+    description: Enable samba support
+    active: false
+    dependencies:
+        @NetworkingSoftwares-Main:Samba>=4.18.6
+    kernelDependencies:
+
+    name: V4l-Utils
+    description: Enable v4l-utils support
+    active: false
+    dependencies:
+        @MultimediaSoftwares-Main:V4l-Utils>=1.24.1
+    kernelDependencies:
+
+    name: Libogg
+    description: Enable libogg support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libogg>=1.3.5
+    kernelDependencies:
+
+    name: Faad2
+    description: Enable faad2 support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Faad2>=2.10.1
+    kernelDependencies:
+
+    name: Flac
+    description: Enable flac support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Flac>=1.4.3
+    kernelDependencies:
+
+    name: Libaom
+    description: Enable libaom support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libaom>=3.6.1
+    kernelDependencies:
+
+    name: Libass
+    description: Enable libass support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libass>=0.17.1
+    kernelDependencies:
+
+    name: Libmpeg2
+    description: Enable libmpeg2 support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libmpeg2>=0.5.1
+    kernelDependencies:
+
+    name: Libpng
+    description: Enable libpng support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libpng>=1.6.40
+    kernelDependencies:
+
+    name: Libtheora
+    description: Enable libtheora support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libtheora>=1.1.1
+    kernelDependencies:
+
+    name: Libva
+    description: Enable libva support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libva>=2.19.0
+    kernelDependencies:
+
+    name: Libvorbis
+    description: Enable libvorbis support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libvorbis>=1.3.7
+    kernelDependencies:
+
+    name: Opus
+    description: Enable opus support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Opus>=1.3.1
+    kernelDependencies:
+
+    name: Speex
+    description: Enable speex support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Speex>=1.2.1
+    kernelDependencies:
+
+    name: Libvpx
+    description: Enable libvpx support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libvpx>=1.13.0
+    kernelDependencies:
+
+    name: X264
+    description: Enable x264 support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:X264>=0.0.0+20230215
+    kernelDependencies:
+
+    name: Aalib
+    description: Enable aalib support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Aalib>=1.4.0-rc.5
+    kernelDependencies:
+
+    name: Fontconfig
+    description: Enable fontconfig support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Fontconfig>=2.14.2
+    kernelDependencies:
+
+    name: FreeType
+    description: Enable freetype support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:FreeType>=2.13.1
+    kernelDependencies:
+
+    name: Fribidi
+    description: Enable fribidi support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Fribidi>=1.0.13
+    kernelDependencies:
+
+    name: Librsvg
+    description: Enable librsvg support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Librsvg>=2.56.3
+    kernelDependencies:
+
+    name: Libvdpau
+    description: Enable libvdpau support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libvdpau>=1.5.0
+    kernelDependencies:
+
+    name: Sdl12-Compat
+    description: Enable sdl12-compat support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Sdl12-Compat>=1.2.64
+    kernelDependencies:
+
+    name: Pulseaudio
+    description: Enable pulseaudio support
+    active: false
+    dependencies:
+        @MultimediaSoftwares-Main:Pulseaudio>=16.1.0
+    kernelDependencies:
+
+    name: Libsamplerate
+    description: Enable libsamplerate support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libsamplerate>=0.2.2
+    kernelDependencies:
+
+    name: Qt
+    description: Enable qt support
+    active: false
+    dependencies:
+        @QtLibraries-Main:Qtsvg>=5.0.0 ~ <6.0.0
+        @QtLibraries-Main:Qtx11extras>=5.0.0 ~ <6.0.0
+    kernelDependencies:
+
+    name: Avahi
+    description: Enable avahi support
+    active: false
+    dependencies:
+        @NetworkingSoftwares-Main:Avahi>=0.8.0
+    kernelDependencies:
+
+    name: Gnutls
+    description: Enable gnutls support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Gnutls>=3.8.1
+    kernelDependencies:
+
+    name: Libnotify
+    description: Enable libnotify support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libnotify>=0.8.2
+    kernelDependencies:
+
+    name: Libxml2
+    description: Enable libxml2 support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Libxml2>=2.10.4
+    kernelDependencies:
+
+    name: Taglib
+    description: Enable taglib support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Taglib>=1.13.1
+    kernelDependencies:
+
+    name: Xdg-Utils
+    description: Enable xdg-utils support
+    active: false
+    dependencies:
+        @Utilities-Main:Xdg-Utils>=1.1.3
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

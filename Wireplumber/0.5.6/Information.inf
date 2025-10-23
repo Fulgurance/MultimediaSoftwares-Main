@@ -1,0 +1,22 @@
+PORT
+    MultimediaSoftwares-Main
+NAME
+    Wireplumber
+VERSION
+    0.5.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Session / policy manager implementation for PipeWire
+WEBSITE
+    https://gitlab.freedesktop.org/pipewire/wireplumber
+DEPENDENCIES
+        @Utilities-Main:Elogind>=252.9.0
+        @BaseLibraries-Main:Glib>=2.82.2
+        @MultimediaSoftwares-Main:Pipewire>=1.2.6
+        @ProgrammingLanguages-Main:Lua>=5.4.7
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

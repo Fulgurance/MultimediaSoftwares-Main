@@ -1,0 +1,159 @@
+PORT
+    MultimediaSoftwares-Main
+NAME
+    Ffmpeg
+VERSION
+    7.1.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    A complete, cross-platform solution to record, convert and stream audio and video
+WEBSITE
+    https://ffmpeg.org/
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Opencl-Icd-Loader
+    description: Enable opencl-icd-loader support
+    active: true
+    dependencies:
+        @BaseLibraries-Main:Opencl-Headers>=0.0.0-20241024
+    kernelDependencies:
+
+    name: Nv-Codec-Headers
+    description: Enable nv-codec-headers support
+    active: true
+    dependencies:
+        @GraphicsLibraries-Main:Nv-Codec-Headers>=0.0.0-20241024
+    kernelDependencies:
+
+    name: Libaom
+    description: Enable libaom support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libaom>=3.6.1
+    kernelDependencies:
+
+    name: Libass
+    description: Enable libass support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libass>=0.17.1
+    kernelDependencies:
+
+    name: Fdk-Aac
+    description: Enable fdk-aac support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Fdk-Aac>=2.0.2
+    kernelDependencies:
+
+    name: FreeType
+    description: Enable freetype support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:FreeType>=2.13.1
+    kernelDependencies:
+
+    name: Lame
+    description: Enable lame support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Lame>=3.100.0
+    kernelDependencies:
+
+    name: Libtheora
+    description: Enable libtheora support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libtheora>=1.1.1
+    kernelDependencies:
+
+    name: Libvorbis
+    description: Enable libvorbis support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libvorbis>=1.3.7
+    kernelDependencies:
+
+    name: Libvpx
+    description: Enable libvpx support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libvpx>=1.13.0
+    kernelDependencies:
+
+    name: Opus
+    description: Enable opus support
+    active: true
+    dependencies:
+        @MultimediaLibraries-Main:Opus>=1.5.2
+    kernelDependencies:
+
+    name: X264
+    description: Enable x264 support
+    active: true
+    dependencies:
+        @MultimediaLibraries-Main:X264>=0.0.0-20230215
+    kernelDependencies:
+
+    name: X265
+    description: Enable x265 support
+    active: true
+    dependencies:
+        @MultimediaLibraries-Main:X265>=0.0.0-20230215
+    kernelDependencies:
+
+    name: Nasm
+    description: Enable nasm support
+    active: true
+    dependencies:
+        @ProgrammingTools-Main:Nasm>=2.16.1
+    kernelDependencies:
+
+    name: Yasm
+    description: Enable yasm support
+    active: false
+    dependencies:
+        @ProgrammingTools-Main:Yasm>=1.3.0
+    kernelDependencies:
+
+    name: Alsa-Lib
+    description: Enable alsa-lib support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Alsa-Lib>=1.2.9
+    kernelDependencies:
+
+    name: Libva
+    description: Enable libva support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libva>=2.19.0
+    kernelDependencies:
+
+    name: Libvdpau
+    description: Enable libvdpau support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libvdpau>=1.5.0
+    kernelDependencies:
+
+    name: Sdl2
+    description: Enable sdl2 support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Sdl2>=2.28.2
+    kernelDependencies:
+
+    name: Mesa
+    description: Enable mesa support
+    active: true
+    dependencies:
+        @GraphicsLibraries-Main:Mesa>=23.1.6
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,59 @@
+PORT
+    MultimediaSoftwares-Main
+NAME
+    V4l-Utils
+VERSION
+    1.24.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Series of packages for handling media devices
+WEBSITE
+    https://github.com/gjasny/v4l-utils/tags
+DEPENDENCIES
+        @ProgrammingLanguages-Main:Llvm>=16.0.5
+KERNELDEPENDENCIES
+OPTIONS
+    name: Qv4l2
+    description: Enable qv4l2 support
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Qvidcap
+    description: Enable qvidcap support
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Alsa-Lib
+    description: Enable alsa-lib support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Alsa-Lib>=1.2.9
+    kernelDependencies:
+
+    name: Glu
+    description: Enable glu support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Glu>=9.0.3
+    kernelDependencies:
+
+    name: Libjpeg-Turbo
+    description: Enable libjpeg-turbo support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libjpeg-Turbo>=3.0.0
+    kernelDependencies:
+
+    name: Qtbase
+    description: Enable qtbase support
+    active: false
+    dependencies:
+        @QtLibraries-Main:Qtbase>=5.0.0 ~ <6.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

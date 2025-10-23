@@ -1,0 +1,63 @@
+PORT
+    MultimediaSoftwares-Main
+NAME
+    Pulseaudio
+VERSION
+    16.1.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Sound server system for POSIX OS
+WEBSITE
+    https://www.freedesktop.org/wiki/Software/PulseAudio/
+DEPENDENCIES
+        @MultimediaLibraries-Main:Libsndfile>=1.2.2
+        @ProgrammingTools-Main:Check>=0.15.2
+        @Xml-Main:Xml-Parser>=2.46.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Alsa-Lib
+    description: Enable alsa-lib support
+    active: true
+    dependencies:
+        @MultimediaLibraries-Main:Alsa-Lib>=1.2.9
+    kernelDependencies:
+
+    name: Dbus
+    description: Enable dbus support
+    active: true
+    dependencies:
+        @Utilities-Main:Dbus>=1.14.8
+    kernelDependencies:
+
+    name: Elogind
+    description: Enable elogind support
+    active: true
+    dependencies:
+        @Utilities-Main:Elogind>=252.9.0
+    kernelDependencies:
+
+    name: Glib
+    description: Enable glib support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Glib>=2.76.4
+    kernelDependencies:
+
+    name: Speex
+    description: Enable speex support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Speex>=1.2.1
+    kernelDependencies:
+
+    name: Xorg-Libraries
+    description: Enable xorg-libraries support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
