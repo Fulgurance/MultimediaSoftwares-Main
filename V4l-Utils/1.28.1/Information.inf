@@ -9,7 +9,7 @@ ARCHITECTURES
 DESCRIPTION
     Series of packages for handling media devices
 WEBSITE
-    https://github.com/gjasny/v4l-utils/tags
+    https://github.com/gjasny/v4l-utils
 DEPENDENCIES
         @ProgrammingLanguages-Main:Llvm>=16.0.5
 KERNELDEPENDENCIES

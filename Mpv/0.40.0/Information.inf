@@ -1,0 +1,60 @@
+PORT
+    MultimediaSoftwares-Main
+NAME
+    Mpv
+VERSION
+    0.40.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Command line video player
+WEBSITE
+    https://github.com/mpv-player/mpv
+DEPENDENCIES
+        @MultimediaLibraries-Main:Alsa-Lib>=1.2.12
+        @MultimediaSoftwares-Main:Ffmpeg>=7.1.0
+        @MultimediaLibraries-Main:Libass>=0.17.3
+        @MultimediaLibraries-Main:Libplacebo>=7.349.0
+        @GraphicsLibraries-Main:Mesa>=24.1.5
+        @MultimediaSoftwares-Main:Pulseaudio>=17.0.0
+        @XorgBase-Main:LibXpresent>=1.0.1
+KERNELDEPENDENCIES
+OPTIONS
+    name: Libjpeg-Turbo
+    description: Enable libjpeg-turbo support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libjpeg-Turbo>=3.0.1
+    kernelDependencies:
+
+    name: Libva
+    description: Enable libva support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libva>=2.22.0
+    kernelDependencies:
+
+    name: Libvdpau
+    description: Enable libvdpau support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libvdpau>=1.5.0
+    kernelDependencies:
+
+    name: Lua
+    description: Enable lua support
+    active: false
+    dependencies:
+        @ProgrammingLanguages-Main:Lua>=5.4.7
+    kernelDependencies:
+
+    name: Pipewire
+    description: Enable pipewire support
+    active: true
+    dependencies:
+        @MultimediaSoftwares-Main:Pipewire>=1.2.6
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

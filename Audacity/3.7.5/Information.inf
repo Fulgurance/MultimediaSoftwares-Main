@@ -1,0 +1,24 @@
+PORT
+    MultimediaSoftwares-Main
+NAME
+    Audacity
+VERSION
+    3.7.5
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    World's most popular audio editing and recording app
+WEBSITE
+    https://www.audacityteam.org/
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+        @ProgrammingLanguages-Main:Python>=3.11.4(Sqlite)
+        @GraphicsLibraries-Main:WxWidgets>=3.2.6
+        @MultimediaLibraries-Main:Lame>=3.100.0
+        @MultimediaLibraries-Main:Portaudio>=19.7.0
+        @ProgrammingTools-Main:Rapidjson>=1.1.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

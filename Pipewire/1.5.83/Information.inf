@@ -1,0 +1,145 @@
+PORT
+    MultimediaSoftwares-Main
+NAME
+    Pipewire
+VERSION
+    1.5.83
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Multimedia processing graphs
+WEBSITE
+    https://gitlab.freedesktop.org/pipewire/pipewire/
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Bluez
+    description: Enable bluez support
+    active: false
+    dependencies:
+        @Utilities-Main:Bluez>=5.68.0
+    kernelDependencies:
+
+    name: Dbus
+    description: Enable dbus support
+    active: true
+    dependencies:
+        @Utilities-Main:Dbus>=1.14.8
+    kernelDependencies:
+
+    name: Gstreamer
+    description: Enable gstreamer support
+    active: true
+    dependencies:
+        @MultimediaLibraries-Main:Gstreamer>=1.22.5(Base)
+    kernelDependencies:
+
+    name: Pulseaudio
+    description: Enable pulseaudio support
+    active: true
+    dependencies:
+        @MultimediaSoftwares-Main:Pulseaudio>=16.1.0
+    kernelDependencies:
+
+    name: Sbc
+    description: Enable sbc support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Sbc>=2.0.0
+    kernelDependencies:
+
+    name: V4l-Utils
+    description: Enable v4l-utils support
+    active: false
+    dependencies:
+        @MultimediaSoftwares-Main:V4l-Utils>=1.24.1
+    kernelDependencies:
+
+    name: Alsa-Lib
+    description: Enable alsa-lib support
+    active: true
+    dependencies:
+        @MultimediaLibraries-Main:Alsa-Lib>=1.2.9
+    kernelDependencies:
+
+    name: Avahi
+    description: Enable avahi support
+    active: false
+    dependencies:
+        @NetworkingSoftwares-Main:Avahi>=0.8.0
+    kernelDependencies:
+
+    name: Fdk-Aac
+    description: Enable fdk-aac support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Fdk-Aac>=2.0.2
+    kernelDependencies:
+
+    name: Ffmpeg
+    description: Enable ffmpeg support
+    active: true
+    dependencies:
+        @MultimediaSoftwares-Main:Ffmpeg>=6.0.0
+    kernelDependencies:
+
+    name: Libcanberra
+    description: Enable libcanberra support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libcanberra>=0.30.0
+    kernelDependencies:
+
+    name: Libdrm
+    description: Enable libdrm support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libdrm>=2.4.115
+    kernelDependencies:
+
+    name: Libxcb
+    description: Enable libxcb support
+    active: false
+    dependencies:
+        @XorgBase-Main:Libxcb>=1.16.0
+    kernelDependencies:
+
+    name: Libsndfile
+    description: Enable libsndfile support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libsndfile>=1.2.2
+    kernelDependencies:
+
+    name: Libusb
+    description: Enable libusb support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Libusb>=1.0.26
+    kernelDependencies:
+
+    name: Opus
+    description: Enable opus support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Opus>=1.3.1
+    kernelDependencies:
+
+    name: Valgrind
+    description: Enable valgrind support
+    active: false
+    dependencies:
+        @Utilities-Main:Valgrind>=3.21.0
+    kernelDependencies:
+
+    name: Xorg-Libraries
+    description: Enable xorg-libraries support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
