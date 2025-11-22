@@ -55,7 +55,7 @@ OPTIONS
     description: Enable xorg-libraries support
     active: false
     dependencies:
-        @XorgBase-Main:Xorg-Libraries>=21.1.8
+        @XorgBase-Main:Xorg-Libraries>=0.0.0
     kernelDependencies:
 
 UNIQUEDEPENDENCIES
